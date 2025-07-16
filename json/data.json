@@ -1,0 +1,37 @@
+{
+  "students": [
+    {
+      "id": 101,
+      "name": "Rohit Verma",
+      "age": 20,
+      "grade": "A",
+      "subjects": ["Math", "Science", "English"]
+    },
+    {
+      "id": 102,
+      "name": "Sneha Gupta",
+      "age": 19,
+      "grade": "B+",
+      "subjects": ["Biology", "Chemistry", "Hindi"]
+    },
+    {
+      "id": 103,
+      "name": "Aman Sharma",
+      "age": 21,
+      "grade": "A+",
+      "subjects": ["Physics", "Math", "Computer Science"]
+    },
+    {
+      "id": 104,
+      "name": "Priya Yadav",
+      "age": 18,
+      "grade": "B",
+      "subjects": ["History", "Geography", "Civics"]
+    }
+  ],
+  "school": {
+    "name": "Green Valley School",
+    "location": "Patna",
+    "affiliation": "CBSE"
+  }
+}

@@ -5,18 +5,18 @@
 # print(m.sum(22,34))
 
 
-# from module import sum     #--- you can use only sum function not another
-# print(sum(24,76))
+from module import sum     #--- you can use only sum function not another
+print(sum(24,76))
 
 
-# from module import sum, mul   #-- here you can use only sum and mul
-# print(sum(2,5))
-# print(mul(8,5))
+from module import sum, mul   #-- here you can use only sum and mul
+print(sum(2,5))
+print(mul(8,5))
 
 
-# from module import *      #----- by using all * brought all the function
-# print(sum(2,56))
-# print(mul(2,9))
+from module import *      #----- by using all * brought all the function
+print(sum(2,56))
+print(mul(2,9))
 
 
 #---------------------------------------------------------------------------------------------------------
