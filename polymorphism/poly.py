@@ -1,10 +1,10 @@
-# class student:
-#     def display(self, name=""):
-#         print("my name is"+" "+name)
-#
-# obj = student()
-# obj.display()
-# obj.display("ravi")
+class student:
+    def display(self, name=""):
+        print("my name is"+" "+name)
+
+obj = student()
+obj.display()
+obj.display("ravi")
 
 #----------------------concept of over-riding--------------
 

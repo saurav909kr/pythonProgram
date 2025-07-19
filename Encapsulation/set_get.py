@@ -1,17 +1,17 @@
-# class student:
-#     def __init__(self):
-#         self.__name = ""
-#         self.__branch = ""
-#     def getname(self):
-#         return  self.__name , self.__branch
-#     def setname(self,name,branch):
-#         self.__name = name
-#         self.__branch = branch
-#
-# obj = student()
-# obj.setname("arnav  rajarjun","data science")
-# name = obj.getname()
-# print(name)
+class student:
+    def __init__(self):
+        self.__name = ""
+        self.__branch = ""
+    def getname(self):
+        return  self.__name , self.__branch
+    def setname(self,name,branch):
+        self.__name = name
+        self.__branch = branch
+
+obj = student()
+obj.setname("arnav  rajarjun","data science")
+name = obj.getname()
+print(name)
 
 #------------------------------------------------------------------------------------------------------------------------------
 
